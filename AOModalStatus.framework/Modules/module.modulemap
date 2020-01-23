@@ -1,0 +1,11 @@
+framework module AOModalStatus {
+  umbrella header "AOModalStatus.h"
+
+  export *
+  module * { export * }
+}
+
+module AOModalStatus.Swift {
+    header "AOModalStatus-Swift.h"
+    requires objc
+}
